@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>RILES</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="icon" type="image/png" href="image/logo_riles.png">
+    <meta charset="utf-8" >
+  </head>
+  <body >
+    <p id="main_title"><a href="index.html">RILES</a> 
+    <div class="nav_bar" data-scroll>
+      <a class="item_bar link" href="home.html">Home</a>
+      <a class="item_bar link" href="skills.html">Competence</a>
+      <a class="item_bar link" href="xp.html">experience</a>
+      <a class="item_bar link" href="formation.html">Formation</a>
+      <a class="item_bar link" href="rilesundayz.html">Rilesundayz</a>
+      <a class="item_bar" id="actif" href="contact.html">Contact</a>
+    </div>   
+    <p class="intro"><i> Bonjour et merci de prendre le temps de me contacter,
+      étant donné mon emploi du temps beaucoup tres plus remplis, la réponse pourrait se 
+      faire tarder mais il faut pas t'inquiéter le sang </i></p>
+
+    <form class="contact" >
+      <p class="item_contact">Les champs avec un "*" sont obligatoires</p>
+
+      <label for="first_name" class="item_contact">Prénom * </label>
+      <input class="contact_area" type="text"  name="first_name" id="first_name" placeholder="enter your first name" minlength="3" required>
+
+      <label for="last_name" class="item_contact">Nom *</label>
+      <input class="contact_area" type="text"  name="last_name" id="last_name" placeholder="enter your last name" minlength="3" required>
+
+      <label for="email" class="item_contact">Adresse E-mail *</label>
+      <input class="contact_area" type="email"  id="email" placeholder="xxxx@xxx.xx" required>
+
+      <label for="number" class="item_contact"> Numero De Telephone *</label>
+      <input id="number" class="contact_area" type="tel" placeholder="+33 X XX XX XX XX " required>
+
+      <label for="recruit" class="item_contact">Nom De Votre Entreprise </label>
+      <input class="contact_area" type="text"  id="recruit" placeholder="enter the name of your enterprise">
+      
+      <label for="social_network_list" class="item_contact">Selectionnez Votre Reseau Social </label>
+      <select class="contact_area" name="social_network_list" id="social_network_list" >
+        <option value="" disabled selected hidden>select your network</option>
+        <option value="linkedin">LinkedIn</option>
+        <option value="instagram">Instagram</option>
+        <option value="twitter">Twitter</option>
+        <option value="mastodon">Mastodon</option>
+      </select>
+      
+      <label for="user_id" class="item_contact">Identifiant (Du Reseau Choisis)</label>
+      <input class="contact_area" type="text"  id="user_id" placeholder="enter your user's id here (of the network chose)" minlength="3">
+
+      <label for="website" class="item_contact">Site Web (Facultatif)</label>
+      <input id="website" class="contact_area" type="url" placeholder="enter the link of your website if you have one" >
+
+      <label for="describ" class="item_contact">Description De Votre Entreprise</label>
+      <textarea id="describ" class="contact_area" placeholder="enter a short description of your enterprise " rows="10" ></textarea>
+      
+      <button type="submit" >Envoyer - Send</button>
+      <br>
+    </form>
+
+  </body>
+</html>
