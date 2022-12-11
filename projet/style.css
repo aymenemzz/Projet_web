@@ -1,0 +1,328 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+}
+.fouteur{
+  display: flex;
+  font-size: 30px;
+}
+.fouteur img {
+  max-width: 10VW;
+}
+#main_title {
+  border: 1px solid #ffffff00;
+  text-align: center;
+  font-size: 100px;
+  background-color: #000;
+  position: sticky;
+  left: 0;
+}
+#main_title a {
+  color: rgb(218, 165, 32);
+}
+#body_xp {
+  height: 100vh;
+  width: 100vw;
+}
+.nav_bar {
+  display: flex;
+  border-width: 3px 0px;
+  border-style: solid;
+  border-color: rgb(218, 165, 32);
+  padding: 5px;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.item_bar {
+  font-size: 30px;
+}
+#actif {
+  color: rgb(218, 165, 32);
+  text-decoration: underline;
+}
+.link {
+  color: rgb(218, 165, 32);
+}
+.nav_bar a:hover {
+  text-decoration: underline;
+}
+.intro {
+  font-size: 40px;
+  text-align: center;
+  padding: 2% 5%;
+  color: #fff;
+  border-top: solid rgb(218, 165, 32);
+}
+.contact {
+  display: flex;
+  padding: 0% 5%;
+  flex-direction: column;
+  font-size: 20px;
+  color: #fff;
+  border-top: solid 4px #fff;
+}
+.contact_area {
+  border-radius: 2rem;
+  background-color: #555;
+  color: #fff;
+  resize: none;
+  margin-bottom: 2%;
+  padding: 1%;
+}
+button {
+  border: solid 2px #fff;
+  color: #fff;
+  background-color: #000;
+  border-radius: 2rem;
+}
+button:hover {
+  background-color: #555;
+}
+input:hover {
+  border: solid 3px #fff;
+  background-color: rgb(139, 136, 136);
+  color: #000;
+}
+.contact_area:hover {
+  border: solid 3px #fff;
+  background-color: rgb(139, 136, 136);
+  color: #000;
+}
+input {
+  border-radius: 2rem;
+  padding: 1%;
+}
+.item_contact {
+  padding-top: 2%;
+}
+.pics_text {
+  display: flex;
+  padding: 2% 5%;
+  flex-direction: row-reverse;
+  border: solid #fff;
+  border-width: 4px 0px;
+  background-color: #000;
+}
+.litle_pics {
+  max-width: 50%;
+  height: auto;
+  padding: 0% 2%;
+  background-color: #00000000;
+}
+.text {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+}
+.background {
+  width: 100%;
+  height: auto;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #00000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+#candice {
+  color: #00000000;
+}
+
+.skills_falling {
+  display: flex;
+  flex-direction: row;
+  border: solid #fff;
+  border-width: 4px 0px;
+}
+.text_title {
+  font-size: 50px;
+  padding: 4vh 7vw;
+  text-align: center;
+}
+.skills_pics {
+  width: 30%;
+  height: auto;
+}
+.skills_text {
+  display: flex;
+  flex-direction: column;
+}
+.main_skills_text {
+  text-align: center;
+  padding: 0px 7vw;
+  font-size: x-large;
+}
+
+.container {
+  padding: 25vh;
+}
+.parallax {
+  background: url("image/background_1.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.parallax_2 {
+  background: url("image/falcon10X-ext.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.parallax_3 {
+  background: url("image/rolls.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.parallax_4 {
+  background: url("image/citation.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* expérience */
+.slide {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.slide p {
+  background-color: #68676794;
+  margin: 2%;
+}
+.h_block {
+  display: flex;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.contain_h {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-x: hidden;
+  border: #fff solid;
+  border-width: 0px 4px;
+}
+.h_block .first {
+  background: url(image/riles_en_concert.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.h_block .second {
+  background: url(image/Rilesundayz-FamilyBusiness.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.h_block .third {
+  background: url(image/Riles-chambre.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.h_block .fourth {
+  background: url(image/riles_brother.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.formation_block {
+  display: flex;
+  border: solid 4px rgb(151, 109, 2);
+  border-radius: 2rem;
+  padding: 1%;
+}
+.xp_pics {
+  max-width: 40vw;
+  height: auto;
+  margin: 2%;
+}
+.formation_pics {
+  border-radius: 1rem;
+  max-height: 50vh;
+}
+.video_competence {
+  max-height: 60vh;
+  width: auto;
+  margin: 3%;
+}
+.skills_block {
+  border: solid 3px rgb(218, 165, 32);
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 30px;
+  justify-content: space-around;
+  background: url(image/logo_riles_2.jpg) no-repeat center;
+  background-size: contain;
+  background-attachment: fixed;
+  margin: 2%;
+}
+.skills_block p {
+  max-width: 45vw;
+  background: none;
+}
+
+.rilesundayz {
+  background: url(image/banniere_rilesundayz.png) no-repeat center;
+  padding: 6% 0%;
+  color: rgb(151, 109, 2);
+}
+
+.cube video {
+  max-width: 20vw;
+  height: auto;
+  border-radius: 3rem;
+  padding: 5%;
+  background: none;
+}
+.cube p {
+  background: none;
+  padding: 2%;
+  text-align: center;
+}
+.cube {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  align-items: center;
+  border: solid 4px rgb(218, 165, 32);
+  border-radius: 3rem;
+  padding: 1%;
+  margin: 1% 0;
+  transition-duration: 200ms;
+}
+.song {
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: 22.5vw 22.5vw 22.5vw 22.5vw;
+  justify-content: space-around;
+  row-gap: 1%;
+}
+.cube:hover {
+  transform: scale(1.1);
+  background-color: rgb(249, 199, 73);
+  transition-duration: 200ms;
+}
+.day { background: #eee; color: black; }
+@media (prefers-color-scheme: dark) {
+  .day.dark-scheme { background: #000; color: white; }
+}
